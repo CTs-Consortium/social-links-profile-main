@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 12px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* body style info */
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter";
+}
+
+.profileCard {
+  width: 450px;
+  margin: auto;
+  text-align: center;
+  background-color: hsl(0, 0%, 12%);
+  padding: 48px;
+}
+img {
+  border-radius: 50%;
+}
+h1,
+.textInfo {
+  color: white;
+  margin-top: 24px;
+  font-weight: 700;
+}
+.location {
+  color: hsl(75, 94%, 57%);
+  margin-top: 12px;
+  font-weight: 600;
+}
+.socialLinks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  font-weight: 400;
+}
+
+button {
+  margin: 6px;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  padding: 12px;
+  border-radius: 25%;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
